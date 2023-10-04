@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+background-color:#eddc;
+    height: 80px;
+ 
+}
+
+
+.search{
+    border: 3px solid black;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+ .login{
+    margin-left: 22rem;
+    display: flex;
+} 
+.icon{
+margin-top: 10px;
+}
+.place{
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 13px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* display: flex;
+    justify-content: space-around; */
+
+}
+.img>img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
